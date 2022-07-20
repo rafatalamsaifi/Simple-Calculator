@@ -1,0 +1,63 @@
+.box {
+    background-color: pink;
+    max-width: 20%;
+    margin: 0 auto;
+    border: 6px solid #d98c8c;
+    padding: 30px 30px;
+}
+
+
+.text-center {
+    text-align: center;
+    margin-top: -2px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row input {
+    height: 35px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.button {
+    box-shadow: 2px 2px black;
+    height: 45px;
+    width: 45px;
+    padding: 7px 7px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    /* width: 15px;
+    height: 15px; */
+}
+
+.button:active {
+    /* background-color: #eaa28c; */
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    transform: translateY(4px);
+}
+
+.row {
+    margin: 4px 0px;
+}
+
+.second :nth-child(4) {
+    background-color: gray;
+}
+
+.primary button {
+    background-color: #ad43ad;
+
+}
