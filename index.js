@@ -19,3 +19,8 @@ Array.from(buttons).forEach((buttons) => {
     }
   });
 });
+setInterval(myFunction, 1000);
+function myFunction() {
+  let d = new Date();
+  document.getElementById('dt').innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+}
